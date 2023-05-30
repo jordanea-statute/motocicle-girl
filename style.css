@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ysabeau:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,1;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    font-family: 'Yasabeu';
+}
+nav{
+    background-color: rgb(8, 8, 8);
+    height: 100px;
+    display: flex;
+}
+
+/*************INICIO ESTILIZAÇÃO BANNER*************/
+header {
+    width: 100%;
+    height: calc(100vh - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title-banner {
+    z-index: 2;
+    background-image: url ("./assets/background/back-header.jpg");
+    position: absolute;
+    font-family: lato;
+    width: 80%;
+}
+
+.title-banner > h1 {
+    font-size: 70pt;
+    color: #f1f1f1;
+    font-weight: 600;
+
+}
+.title-banner > p {
+    color: #f1f1f1da;
+    font-size: 13pt;
+}
+
+header>figure {
+    z-index: 2;
+    position: absolute;
+    align-self: flex-end;
+}
+
+header>figure>img {
+    width: 50px;
+}
+
+.container-banner {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(90%); /* brilho da imagem*/
+}
+/*****************FIM ESTILIZAÇÃO BANNER*****************/
+
+/*INICIO ESTILIZAÇÃO MAIN*/
+
+.title-section h1{
+    font-family: lato;
+    font-size: 20pt;
+    display: flex;
+    margin: 4rem;
+}
+.title-section h2 p { 
+    font-family: lato;
+    font-size: 15pt;
+    margin-left: 2rem;
+}
+.image-angelinaJolie{
+    
+}
+
+
+/****************FIM ESTILIZAÇÃO MAIN******************/
+
+/****************INICIO ESTILIZÇÃO FOOTER***************/
+footer{
+    background-color: rgb(63, 3, 3);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.copyrigth {
+    text-align: center;
+    font-size: 10pt;
+    opacity: 0.6 ;
+  }
+
+/****************FIM ESTILIZÇÃO FOOTER***************/
