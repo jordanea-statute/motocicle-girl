@@ -18,10 +18,19 @@ header {
     justify-content: center;
 
 }
+header>figure {
+    z-index: 2;
+    position: absolute;
+    align-self: flex-end;
+}
+
+header>figure>img {
+    width: 50px;
+}
 
 .title-banner {
     z-index: 2;
-    background-image: url ("./assets/background/back-header.jpg");
+  /*  background-image: url ("./assets/background/back-header.jpg");*/
     position: absolute;
     font-family: lato;
     width: 80%;
@@ -36,16 +45,6 @@ header {
 .title-banner > p {
     color: #f1f1f1da;
     font-size: 13pt;
-}
-
-header>figure {
-    z-index: 2;
-    position: absolute;
-    align-self: flex-end;
-}
-
-header>figure>img {
-    width: 50px;
 }
 
 .container-banner {
@@ -76,7 +75,7 @@ header>figure>img {
     margin-left: 2rem;
 }
 .image-angelinaJolie{
-    
+
 }
 
 
